@@ -1,0 +1,1 @@
+web: gunicorn FabulaSocialSpace.wsgi:application --timeout 120 --workers 4 --threads 2
